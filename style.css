@@ -1,0 +1,95 @@
+html, body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* eyes */
+.eyes {
+  display: flex;
+}
+
+.l-eye,
+.r-eye {
+  background-color: black;
+  border-radius: 50px;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  margin-top: 150px;
+}
+
+.l-eye {
+  margin-left: 560px;
+}
+
+.r-eye {
+  margin-left: 730px;
+}
+
+/* cheeks */
+
+.cheeks {
+  display: flex;
+}
+
+.l-cheek,
+.r-cheek {
+  width: 30px;
+  height: 25px;
+  border-radius: 15px;
+  background-color: palevioletred;
+  margin-top: 190px;
+  transition: background-color 1s ease-in-out;
+}
+
+.l-cheek {
+  position: absolute;
+  margin-left: 520px;
+}
+
+.r-cheek {
+  position: absolute;
+  margin-left: 770px;
+}
+
+.l-cheek:hover,
+.r-cheek:hover {
+  background-color: red;
+}
+
+/* smile */
+.smile{
+    font-size: 50px;
+    position: absolute;
+    margin-left: 645px;
+    margin-top: 240px;
+}
+
+/* face */
+.l-face{
+    font-size: 200px;
+    position: absolute;
+    margin-left: 450px;
+    margin-top: 90px;
+}
+
+.r-face{
+    font-size: 200px;
+    position: absolute;
+    margin-left: 810px;
+    margin-top: 90px;
+}
+
+/* button */
+button{
+    border:none;
+    background-color: palevioletred;
+    color:white;
+    position: absolute;
+    margin-left: 610px;
+    margin-top: 480px;
+    transition: background-color 1s;
+    padding:15px;
+}
+
+button:hover{
+    background-color: red;
+}
