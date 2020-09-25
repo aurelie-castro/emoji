@@ -53,6 +53,7 @@ html, body{
 .l-cheek:hover,
 .r-cheek:hover {
   background-color: red;
+  cursor: pointer;
 }
 
 /* smile */
@@ -92,4 +93,5 @@ button{
 
 button:hover{
     background-color: red;
+    cursor: pointer;
 }
